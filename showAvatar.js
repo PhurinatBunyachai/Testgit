@@ -1,11 +1,4 @@
-var xmlHttp;
 
-function createXMLHttpRequest(){
-    if(window.ActiveXObject)
-        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
-    else
-        xmlHttp = new XMLHttpRequest();    
-}
 
 function stateChange(){
     if(xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
