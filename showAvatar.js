@@ -1,9 +1,6 @@
 
 
-function stateChange(){
-    if(xmlHttp.readyState==4 || xmlHttp.readyState=="complete") { 
-        var avtN = xmlHttp.responseText;
-        var avtStr;
+
 
         if(avtN.substring(0,3) == "Mrs"){
             avtStr = avtN.substring(4,11);
